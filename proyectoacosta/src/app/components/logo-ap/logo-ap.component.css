@@ -1,5 +1,40 @@
+.container{
+display:flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.redes {
+    margin-right: 05em;
+
+}
+
+
 #logoAP {
  width: 150px;
  
 
+}
+img {
+    width: 50px;
+    
+}
+.btn {
+    border-width: medium;
+    
+}
+
+.yo {
+   color:azure; 
+}
+/*---Para la vista de Celular---*/
+@media (max-width:575px) {
+.redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.redes img{
+    margin: 0.2em;
+}
 }
